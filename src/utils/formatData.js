@@ -7,4 +7,6 @@ const handleFormatMoney = (money) => {
   return money.toLocaleString("it-IT", { style: "currency", currency: "VND" });
 };
 
+const handleFormatDate = () => {};
+
 export { handleFormatMoney };
